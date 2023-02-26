@@ -52,6 +52,7 @@ body{
 .column img{
     width: 100%;
     padding-bottom: 0.938rem;
+    border-radius:  0.625rem;
 }
 
 .container .btn{
@@ -71,23 +72,22 @@ body{
 
 .site{
     position: relative;
-    background: rgb(61, 155, 184);
+    background: rgb(111, 186, 209);
     margin: 0.3rem;
-    border-radius: 0.5rem;
+    border-radius: 0.625rem;
 }
 
 .site p{
     padding: 0.3rem;
     color: white;
-    top: 20%;
     text-shadow: 0.3125rem 0.3125rem 0.625rem #000000;
 }
 
 h2{
     text-shadow: 0.3125rem 0.3125rem 0.625rem #000000;
     color: white;
-    position: absolute;
-    top: 1.5%;
+    display: block;
+    margin: auto;
 }
 
 @media only screen and (max-width: 50rem) {
